@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+header {
+    text-align: center;
+    padding: 80px 20px;
+    background-color: #111;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+header .tagline {
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+    position: relative;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #9b1b30; /* Red color inspired by PSG */
+}
+
+section p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #555;
+}
+
+.section-img {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #9b1b30; /* Red color */
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 25px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #6b0e1e; /* Darker red for hover effect */
+}
+
+.career {
+    background-color: #f4f4f4;
+}
+
+.journey {
+    background-color: #efe9f1; /* Light purple inspired by PSG */
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #111;
+    color: #fff;
+}
+
+footer p {
+    font-size: 1rem;
+}
